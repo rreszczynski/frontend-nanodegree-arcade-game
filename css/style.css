@@ -1,3 +1,35 @@
 body {
+
     text-align: center;
+
+}
+
+
+.winModal {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.winModal-content {
+    background-color: #f4f4f4;
+    margin: auto;
+    margin-top: 30%;
+    text-align: center;
+    font-size: 2em;
+    width: 50%;
+    height: auto;
+    padding-bottom: 0.5em;
+    animation-name: modalopen;
+    animation-duration: 1s; 
+}
+
+.winModal-content .modalRestart{
+    cursor: pointer;
+    border-style: dotted;
 }
